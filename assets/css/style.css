@@ -25,7 +25,7 @@ p {
 }
 /*---------------------- HEADER ----------------------*/
 header {
-  padding-top: 30px;
+  padding-top: 35px;
   padding-bottom: 20px;
   display: inline-block;
   width: 100%;
@@ -62,7 +62,7 @@ main .section1 {
 }
 
 main .section1 h2 {
-  padding-top: 45px;
+  padding-top: 55px;
   font-size: 250%;
   font-weight: 650;
 }
@@ -78,7 +78,7 @@ main .section1 button {
   border-radius: 5px;
   background-color: #f04c2f;
   color: white;
-  font-size: large;
+  font-size: 15px;
 }
 main section .white h2 {
   font-size: 1.4rem;
@@ -86,7 +86,7 @@ main section .white h2 {
   margin-bottom: 20px;
 }
 main section .white p {
-  margin: 10px 0px;
+  margin: 10px 26px;
 }
 main section .white {
   padding: 10px 0px;
@@ -101,6 +101,7 @@ main section .white img {
 main section .red {
   height: 300px;
   padding: 25px 0px;
+  margin-top: 40px;
   background-color: #e22d0e;
   color: white;
 }
@@ -108,7 +109,7 @@ main section .red h1 {
   margin: 35px 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 230%;
+  font-size: 220%;
 }
 
 main section .red p {
@@ -137,6 +138,8 @@ main section .schede {
 }
 main .section2 h2 {
   margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 main .section2 p {
   font-size: 1.1rem;
@@ -148,7 +151,7 @@ footer {
   color: #c8e7f0;
   font-family: "Montserrat", sans-serif;
   background-color: #25a2c3;
-  height: 400px;
+  height: 360px;
   display: inline-block;
   width: 100%;
 }
@@ -164,19 +167,20 @@ footer p {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 200;
 }
 footer a {
   color: #c8e7f0;
 }
 footer .copyright {
-  padding: 30px 0px;
-  border-color: #c8e7f0;
-  border-style: solid;
-  border-width: 1px 0px 0px 0px;
   margin: 30px 100px 20px 100px;
 }
+footer .footerline {
+  color: #c8e7f0;
+  width: 50%;
+  margin: 30px auto;
+}
 footer .copyright p {
-  font-weight: 200;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
 }
