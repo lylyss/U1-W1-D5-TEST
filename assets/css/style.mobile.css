@@ -1,0 +1,186 @@
+/* Your styles here */
+/* ---------BODY */
+body {
+  background-color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  color: #25a2c3;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+p {
+  line-height: 1.65;
+  font-size: 1.3rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/*---------------------- HEADER ----------------------*/
+header {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+.logo {
+  margin: 0;
+  width: 100%;
+}
+header img {
+  width: 150px;
+}
+/* ---------------------MAIN---------------------------- */
+main {
+  display: inline-block;
+  width: 100%;
+  color: #393d41;
+}
+
+main img {
+  max-width: 380px;
+  width: 100%;
+}
+main .section1 {
+  padding-bottom: 20px;
+  font-weight: 450;
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+main .section1 h2 {
+  padding-top: 55px;
+  font-size: 250%;
+  font-weight: 650;
+}
+main .section1 p {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+main .section1 button {
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 35px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  color: white;
+  font-size: 15px;
+}
+main section .white h2 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main section .white p {
+  margin: 10px 26px;
+}
+main section .white {
+  padding: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main section .white img {
+  max-width: 300px;
+  margin: 20px 0px;
+  border-radius: 50%;
+}
+main section .red {
+  height: 300px;
+  padding: 25px 0px;
+  margin-top: 40px;
+  background-color: #e22d0e;
+  color: white;
+}
+main section .red h1 {
+  margin: 35px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 220%;
+}
+
+main section .red p {
+  font-family: "Roboto", sans-serif; /* !!Se si inserisce il font OPENSANS O MONTSERRAT, cambiando stile in ITALIC , cambia la forma base del font */
+  font-style: italic;
+  font-size: 1.3rem;
+}
+main section .red h2 {
+  margin-bottom: 15px;
+  margin-top: 35px;
+  font-size: 150%;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+main section .section2 {
+  padding: 45px 30px;
+}
+main section .schede {
+  width: 100%;
+  margin: 35px 0px;
+  border-color: #dee1e3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+main .section2 h2 {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+main .section2 p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* -----------------------FOTER----------------------- */
+footer {
+  color: #c8e7f0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #25a2c3;
+  height: 360px;
+  display: inline-block;
+  width: 100%;
+}
+footer h1 {
+  /* footer header */
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 220%;
+  font-weight: 700;
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer .copyright {
+  margin: 30px 100px 20px 100px;
+}
+footer .footerline {
+  color: #c8e7f0;
+  width: 50%;
+  margin: 30px auto;
+}
+footer .copyright p {
+  font-weight: 400;
+  font-size: 16px;
+}
