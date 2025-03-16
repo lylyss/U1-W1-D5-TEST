@@ -1,5 +1,5 @@
 /* Your styles here */
-/* BODY */
+/* ---------BODY */
 body {
   background-color: white;
   text-align: center;
@@ -20,8 +20,10 @@ p {
   font-size: 1.3rem;
   margin-right: 5%;
   margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-/* HEADER */
+/*---------------------- HEADER ----------------------*/
 header {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -37,7 +39,7 @@ header {
 header img {
   width: 150px;
 }
-/* MAIN */
+/* ---------------------MAIN---------------------------- */
 main {
   display: inline-block;
   width: 100%;
@@ -45,10 +47,11 @@ main {
 }
 
 main img {
-  max-width: 300px;
+  max-width: 380px;
   width: 100%;
 }
 main .section1 {
+  padding-bottom: 20px;
   font-weight: 450;
   height: 400px;
   width: 100%;
@@ -69,7 +72,6 @@ main .section1 p {
 }
 main .section1 button {
   font-family: "Montserrat", sans-serif;
-  margin-top: 25px;
   padding: 15px 35px;
   font-weight: bold;
   border: 0;
@@ -92,6 +94,7 @@ main section .white {
   margin-bottom: 30px;
 }
 main section .white img {
+  max-width: 300px;
   margin: 20px 0px;
   border-radius: 50%;
 }
@@ -122,20 +125,58 @@ main section .red h2 {
   color: white;
 }
 main section .section2 {
-  padding: 45px 20px;
+  padding: 45px 30px;
 }
 main section .schede {
   width: 100%;
+  margin: 35px 0px;
   border-color: #dee1e3;
   border-style: solid;
   border-width: 1px;
+  border-radius: 5px;
+}
+main .section2 h2 {
+  margin-top: 25px;
+}
+main .section2 p {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
-/* FOTER */
+/* -----------------------FOTER----------------------- */
 footer {
+  color: #c8e7f0;
   font-family: "Montserrat", sans-serif;
   background-color: #25a2c3;
-  height: 350px;
+  height: 400px;
   display: inline-block;
   width: 100%;
+}
+footer h1 {
+  /* footer header */
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 220%;
+  font-weight: 700;
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer .copyright {
+  padding: 30px 0px;
+  border-color: #c8e7f0;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  margin: 30px 100px 20px 100px;
+}
+footer .copyright p {
+  font-weight: 200;
+  font-size: 18px;
 }
