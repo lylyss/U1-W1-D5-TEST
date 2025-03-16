@@ -76,8 +76,15 @@ main .section1 button {
   border-radius: 5px;
   background-color: #f04c2f;
   color: white;
-
   font-size: large;
+}
+main section div h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main section div {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* FOTER */
