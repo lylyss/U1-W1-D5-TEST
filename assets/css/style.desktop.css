@@ -1,4 +1,11 @@
 /* Your styles here */
+div {
+  white-space: nowrap;
+}
+* {
+  white-space: nowrap;
+  box-sizing: border-box;
+}
 /* ---------BODY */
 body {
   background-color: white;
@@ -12,32 +19,27 @@ h2 {
   font-size: larger;
   color: #25a2c3;
   font-weight: bolder;
-  margin-bottom: 20px;
   font-size: 1.4rem;
 }
 p {
   line-height: 1.65;
   font-size: 1.3rem;
-  margin-right: 5%;
-  margin-left: 5%;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 /*---------------------- HEADER ----------------------*/
 header {
-  padding-top: 35px;
-  padding-bottom: 20px;
-  display: inline-block;
-  width: 100%;
-  height: 60px;
+  padding: 20px;
+  padding-left: 50px;
   background-color: black;
 }
 .logo {
+  text-align: left;
   margin: 0;
   width: 100%;
 }
 header img {
-  width: 150px;
+  width: 200px;
 }
 /* ---------------------MAIN---------------------------- */
 main {
@@ -50,26 +52,33 @@ main img {
   max-width: 380px;
   width: 100%;
 }
+
+/* section 1 ---------------- */
 main .section1 {
-  padding-bottom: 20px;
+  padding: 240px 0px;
   font-weight: 450;
-  height: 400px;
-  width: 100%;
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
-  background-size: 150%;
-  background-position: center;
+  background-size: 100%;
+  background-position: top;
 }
 
 main .section1 h2 {
-  padding-top: 55px;
   font-size: 250%;
   font-weight: 650;
 }
+
+main .section1 .parag {
+  width: 45%;
+  margin: 0 auto;
+}
+
 main .section1 p {
   font-weight: 400;
   font-size: 1.4rem;
+  text-wrap: auto;
 }
+
 main .section1 button {
   font-family: "Montserrat", sans-serif;
   padding: 15px 35px;
@@ -80,33 +89,51 @@ main .section1 button {
   color: white;
   font-size: 15px;
 }
+/* wite---------------------- */
+main section .white {
+  text-align: left;
+  padding: 100px 0px;
+}
+
+main section .white > div {
+  display: inline-block;
+  width: 50%;
+  padding: 0 30px;
+  margin-left: -2px;
+}
+
 main section .white h2 {
-  font-size: 1.4rem;
-  margin-top: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
-main section .white p {
-  margin: 10px 26px;
+
+main section .white div p {
+  font-size: 16px;
+  margin: 0;
+  text-wrap: auto;
 }
-main section .white {
-  padding: 10px 0px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 main section .white img {
-  max-width: 300px;
-  margin: 20px 0px;
   border-radius: 50%;
+  width: 500px;
 }
+
+main section .white .divDestro > div {
+  margin-bottom: 20px;
+}
+
+main section .white .divDestro {
+  padding-right: 26%;
+}
+
+/* red ------------------------ */
 main section .red {
-  height: 300px;
-  padding: 25px 0px;
-  margin-top: 40px;
+  padding: 80px 0px;
   background-color: #e22d0e;
   color: white;
 }
 main section .red h1 {
-  margin: 35px 0px;
+  margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 220%;
@@ -125,25 +152,37 @@ main section .red h2 {
   font-family: "Open Sans", sans-serif;
   color: white;
 }
+/* section 2 ------------------- */
 main section .section2 {
-  padding: 45px 30px;
+  padding: 60px;
 }
 main section .schede {
-  width: 100%;
-  margin: 35px 0px;
+  display: inline-block;
+  width: calc(100% / 4);
+  margin: 35px 20px;
   border-color: #dee1e3;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
 }
+
+main section .schede img {
+  height: 260px;
+  width: 100%;
+  max-width: inherit;
+}
+
 main .section2 h2 {
   margin-top: 25px;
   font-size: 1.2rem;
   font-weight: 700;
 }
 main .section2 p {
-  font-size: 1.1rem;
+  margin-top: 12px;
+  font-size: 15px;
   font-weight: 400;
+  text-wrap: auto;
+  padding: 0 10px;
 }
 
 /* -----------------------FOTER----------------------- */
@@ -151,36 +190,39 @@ footer {
   color: #c8e7f0;
   font-family: "Montserrat", sans-serif;
   background-color: #25a2c3;
-  height: 360px;
-  display: inline-block;
-  width: 100%;
+  padding: 80px 0;
 }
+
+footer > div {
+  width: 15%;
+  margin: 0 auto;
+}
+
 footer h1 {
-  /* footer header */
+  /* footer header------------ */
   color: white;
   margin-bottom: 30px;
-  margin-top: 50px;
-  font-size: 220%;
+  font-size: 40px;
   font-weight: 700;
 }
 footer p {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  font-size: 20px;
+  text-align: left;
   font-weight: 200;
+  font-size: 16px;
 }
 footer a {
   color: #c8e7f0;
 }
-footer .copyright {
-  margin: 30px 100px 20px 100px;
-}
+
 footer .footerline {
   color: #c8e7f0;
-  width: 50%;
   margin: 30px auto;
 }
+
 footer .copyright p {
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
 }
